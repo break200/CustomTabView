@@ -11,6 +11,11 @@
 		FDA64BC42BCECCBD009D8951 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA64BC32BCECCBD009D8951 /* ContentView.swift */; };
 		FDA64BC62BCECCBE009D8951 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDA64BC52BCECCBE009D8951 /* Assets.xcassets */; };
 		FDA64BC92BCECCBE009D8951 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDA64BC82BCECCBE009D8951 /* Preview Assets.xcassets */; };
+		FDA64BD02BCECD02009D8951 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = FDA64BCF2BCECD02009D8951 /* .gitignore */; };
+		FDA64BD22BCECD66009D8951 /* CustomTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA64BD12BCECD66009D8951 /* CustomTabbar.swift */; };
+		FDA64BD42BCF4466009D8951 /* HouseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA64BD32BCF4466009D8951 /* HouseView.swift */; };
+		FDA64BD62BCF4690009D8951 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA64BD52BCF4690009D8951 /* MessageView.swift */; };
+		FDA64BD82BCF46A4009D8951 /* OtherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA64BD72BCF46A4009D8951 /* OtherView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		FDA64BC32BCECCBD009D8951 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FDA64BC52BCECCBE009D8951 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDA64BC82BCECCBE009D8951 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FDA64BCF2BCECD02009D8951 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		FDA64BD12BCECD66009D8951 /* CustomTabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabbar.swift; sourceTree = "<group>"; };
+		FDA64BD32BCF4466009D8951 /* HouseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseView.swift; sourceTree = "<group>"; };
+		FDA64BD52BCF4690009D8951 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		FDA64BD72BCF46A4009D8951 /* OtherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +45,7 @@
 		FDA64BB52BCECCBD009D8951 = {
 			isa = PBXGroup;
 			children = (
+				FDA64BCF2BCECD02009D8951 /* .gitignore */,
 				FDA64BC02BCECCBD009D8951 /* CustomTabView */,
 				FDA64BBF2BCECCBD009D8951 /* Products */,
 			);
@@ -53,6 +64,10 @@
 			children = (
 				FDA64BC12BCECCBD009D8951 /* CustomTabViewApp.swift */,
 				FDA64BC32BCECCBD009D8951 /* ContentView.swift */,
+				FDA64BD12BCECD66009D8951 /* CustomTabbar.swift */,
+				FDA64BD32BCF4466009D8951 /* HouseView.swift */,
+				FDA64BD52BCF4690009D8951 /* MessageView.swift */,
+				FDA64BD72BCF46A4009D8951 /* OtherView.swift */,
 				FDA64BC52BCECCBE009D8951 /* Assets.xcassets */,
 				FDA64BC72BCECCBE009D8951 /* Preview Content */,
 			);
@@ -126,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDA64BC92BCECCBE009D8951 /* Preview Assets.xcassets in Resources */,
+				FDA64BD02BCECD02009D8951 /* .gitignore in Resources */,
 				FDA64BC62BCECCBE009D8951 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +153,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDA64BD22BCECD66009D8951 /* CustomTabbar.swift in Sources */,
+				FDA64BD42BCF4466009D8951 /* HouseView.swift in Sources */,
 				FDA64BC42BCECCBD009D8951 /* ContentView.swift in Sources */,
 				FDA64BC22BCECCBD009D8951 /* CustomTabViewApp.swift in Sources */,
+				FDA64BD62BCF4690009D8951 /* MessageView.swift in Sources */,
+				FDA64BD82BCF46A4009D8951 /* OtherView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
